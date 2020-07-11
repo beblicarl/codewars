@@ -1,0 +1,79 @@
+What is Object Oriented Programming ?
+
+Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior. OOP for short, focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. This approach to programming is well-suited for programs that are large, complex and actively updated or maintained. The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function. The four principles of object-oriented programming are encapsulation, abstraction, inheritance, and polymorphism. 
+
+Encapsulation
+Encapsulation is achieved when each object are privately held inside a defined boundary, or class. Other objects do not have access to this class or the authority to make changes but are only able to call a list of public functions, or methods.
+
+Abstraction
+Data Abstraction is the property by virtue of which only the essential details are displayed to the user.The trivial or the non-essentials units are not displayed to the user. Example, A car is viewed as a car rather than its individual components.
+Data Abstraction may also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details. The properties and behaviours of an object differentiate it from other objects of similar type and also help in classifying/grouping the objects.
+
+Inheritance
+Inheritance is an important pillar of OOP(Object Oriented Programming). It is the mechanism in java by which one class is allow to inherit the features(fields and methods) of another class.
+
+        Super class : The class whose features are inherited is known as superclass(or a base class or a parent class).
+        Sub-calss   : The class that inherits the other class is known as subclass(or a derived class, extended class, or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
+        Reuseability: : Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.
+
+Polymorphism
+Polymorphism refers to the ability of OOPs programming languages to differentiate between entities with the same name efficiently.
+
+
+What are the datatypes in python
+
+Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes. Python data types are divided in two categories, mutable data types and immutable data types.
+
+Mutable datatypes = These are datatypes that can be changed.
+Immutable datatype = These are datatypes that can't be changed.
+    Immutable datatypes
+    1. Numeric
+    2. Strings
+    3. Tuple
+
+     Numeric datatypes
+
+        1a) Integers = These are whole numbers and they have no upper bound in Python 3 so they have values as large as the system memory can take. Example 3,44,5,7,8,9,10
+        1b) Floats   = These are decimals(Numbers with points in them). Example : 1.0,2.3,3.5,6.5
+
+     Strings 
+     String is a sequence of characters in Python. The data type of String in Python is called “str”. Strings in Python are either enclosed with single quotes or double quotes. Example: "hello, how are you doing?" or 'Hello, how are you doing?'
+
+     Tuple
+     It is an ordered collection of elements enclosed in round brackets and separated by commas. Example : (1,2,3,4)
+
+
+    Mutable datatypes
+    1.List 
+    2.Dictionary
+    3.Sets
+
+
+      List
+      List is similar to tuple, it is also an ordered collection of elements, however list is a mutable data type which means it can be changed unlike tuple which is an immutable data type. A list is enclosed with square brackets and elements are separated by commas. [1,2,3,4,5]
+
+
+      Dictionary
+      Dictionary is a collection of key and value pairs. A dictionary doesn’t allow duplicate keys but the values can be duplicate. It is an ordered, indexed and mutable collection of elements. In Python, dictionaries are defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type. Example: d = {1:'value','key':2}
+
+      Sets
+      A set is an unordered and unindexed collection of items. This means when we print the elements of a set they will appear in the random order and we cannot access the elements of set based on indexes because it is unindexed. Elements of set are separated by commas and enclosed in curly braces. Example : myset = {"hi", 2, "bye", "Hello World"}
+
+
+
+
+
+What is the difference between an interpreted lanaguage and a compiled language?
+
+Compiled language
+In a compiled implementation, the original program is translated into native machine instructions, which are executed directly by the hardware.
+
+Intepreted language
+In an interpreted implementation, the original program is translated into something else. Another program, called "the interpreter", then examines "something else" and performs whatever actions are called for. Depending on the language and its implementation, there are a variety of forms of "something else".  From more popular to less popular, "something else" might be;
+
+    1.Binary instructions for a virtual machine, often called bytecode, as is done in Lua, Python, Ruby, Smalltalk, and many other systems (the approach was popularized in the 1970s by the UCSD P-system and UCSD Pascal).
+    2.A tree-like representation of the original program, such as an abstract-syntax tree, as is done for many prototype or educational interpreters.
+    3.A tokenized representation of the source program, similar to Tcl
+    4.The characters of the source program, as was done in MINT and TRAC.
+
+
