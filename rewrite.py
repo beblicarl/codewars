@@ -16,3 +16,7 @@ def validate_pin(pin_code):
         return False 
 
 print(validate_pin('0012'))
+
+#other solutions on codewars
+def validate_pin(pin):
+    return len(pin) in (4, 6) and pin.isdigit()
