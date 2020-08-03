@@ -29,3 +29,25 @@ def find_smallest_int(arr):
 
 print(find_smallest_int([0, 1-2**64, 2**64]))
 
+
+
+#Examples from others
+
+def findSmallestInt(arr):
+    return min(arr)
+
+def findSmallestInt(arr):
+    smallest = []
+    for i in range(0,len(arr)):
+        if (arr[i] < smallest):
+            smallest = arr[i]
+    return smallest
+
+
+def findSmallestInt(arr):
+    #sort array
+    arr.sort()
+    return arr[0]
+
+
+
